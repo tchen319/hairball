@@ -6,8 +6,6 @@
         _m = window.ShopifyAnalytics.meta;
     }
     if (_m && _m.product) {
-        -- alert(_m.product.id);
-
         window.dotq = window.dotq || [];
         if (window.dotq.push) {
             var _evt = {
