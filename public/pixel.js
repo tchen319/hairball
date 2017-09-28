@@ -21,6 +21,7 @@
                     }
                 }
             }
+        alert(_evt);
             window.dotq.push(_evt);
         }
     }
