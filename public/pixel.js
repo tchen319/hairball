@@ -15,11 +15,10 @@
                     'qstrings': {
                         'et': 'custom',
                         'ea': 'ViewProduct',
-                        'product_id': _m.product.id
+                        'product_id': String(_m.product.id)
                     }
                 }
             }
-        alert(btoa(_evt));
             window.dotq.push(_evt);
         }
     }
