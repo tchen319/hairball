@@ -21,7 +21,7 @@
                     }
                 }
             }
-        alert(_evt);
+        alert(btoa(_evt));
             window.dotq.push(_evt);
         }
     }
