@@ -1,9 +1,7 @@
-debugger;
-
 var pixelId = (function() {
     var scripts = document.getElementsByTagName('script');
     for (var myscript in scripts) {
-        var dp = myscript.match(/\/pixel\/.*_dp=(\d+)/i);
+        var dp = myscript.src.match(/\/pixel\/.*_dp=(\d+)/i);
         if (dp && dp.length >= 2) {
             return dp[1];
         }
